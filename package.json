@@ -1,13 +1,15 @@
 {
-  "homepage": "https://Zac022.github.io/Isaac_portfolio",
-  "name": "3dfolio",
+  "homepage": "https://Zac022.github.io/portfolio_23",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
